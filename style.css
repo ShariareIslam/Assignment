@@ -5,6 +5,7 @@ body{
 .header{
     font-size: 40px;
     color:orange;
+    
 }
 h3{
     font-size: 20px;
@@ -12,17 +13,23 @@ h3{
 }
 h1{
     font-size: 40px;
+    border-left: 5px orange solid;
+    border-radius: 5px ;
 }
-section{
+.flexible-container{
+
     display: flex;
+    margin-bottom: 150px;
 }
 .header-section{
     width: 50;
-    padding-left: 50px;
+    padding-left: 20px;
+    padding-right: 80px;
+   
 }
 .header-section img{
-    width: 80%;
-    
+    width: 70%;
+    height: 90%;
 }
 .portfolio-button{
     text-decoration: none;
@@ -36,4 +43,78 @@ section{
     background-image: url(images/background\'.jpg);
     background-repeat: no-repeat;
 
+}
+.section-2{
+    text-align:center;
+}
+.box-1{
+    width: 350px;
+    height: 350px;
+    margin: 15px;
+    background-color: rgb(193, 240, 235);
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+.box-1 img{
+    width: 150px;
+    height: 150px;
+}
+.box-2{
+    width: 350px;
+    height: 350px;
+    margin: 15px;
+    background-color: rgb(241, 204, 198);
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+.box-2 img{
+    width: 150px;
+    height: 150px;
+}
+.box-3{
+    width: 350px;
+    height: 350px;
+    margin: 15px;
+    background-color: rgb(255, 203, 255);
+    border-radius: 10px;
+    padding: 10px;
+}
+.box-3 img{
+    width: 150px;
+    height: 150px;
+}
+.section-3{
+    display: flex;
+    padding-left: 100px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.section-3 img{
+    padding: 20px;
+    width: 350px;
+    height: 350px;
+}
+.section-4{
+    display: flex;
+    padding: 10px;
+    background-image: url(images/shape-5.png);
+    background-repeat: no-repeat;
+}
+.section-4 img{
+    padding: 20px;
+    width: 80%;
+    height: 80%;
+}
+.footer{
+text-align: center;
+padding-top: 20px;
+font-size: 20px;
+color: white;
+background-color: black;
+height: 150px;
+}
+.fotter-bottom{
+    color: red;
 }
